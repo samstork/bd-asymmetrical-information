@@ -23,8 +23,10 @@ There are only three mandatory arguments in the command:
 	- `fb` - Fixed Beliefs
 There are multiple optional arguments that can be set. The important ones are
 - `--hi` sets the hidden information condition to true
-- `--record` records each timestep as an image in ./gym_cooking/misc/game/records
+- `--record` records each timestep as an image in `./gym_cooking/misc/game/records`
 - `--seed` sets the random seed for the episode
 
-For example, to run an experiment with three Bayesian Delegation agents in the Partial Divider Tomato Lettuce kitchen under the hidden information condition, with a seed of 42, and record the timesteps you would use the following command in the ./gym_cooking directory:
+For example, to run an experiment with three Bayesian Delegation agents in the Partial Divider Tomato Lettuce kitchen under the hidden information condition, with a seed of 42, and record the timesteps you would use the following command in the `./gym_cooking` directory:
 `python main.py --num-agents 3 --level partial-divider_tl --model1 bd --model2 bd --model3 bd --hi --seed 42 --record`
+
+Results are saved as .txt files under `./gym_cooking/misc/metrics/results`

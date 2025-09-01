@@ -1,3 +1,6 @@
+## Introduction
+This is the code I used for my Bachelor's Project on Bayesian Delegation with Asymmetrical Hidden Information. It is built on the original Bayesian Delegation [paper](https://onlinelibrary.wiley.com/doi/full/10.1111/tops.12525) and [code](https://github.com/rosewang2008/gym-cooking).
+
 ## Installation
 These installation steps should be the same regardless of the operating system being used. 
 1. This repository is versioned using Conda. Install a Conda distributions of your choice by following the instructions found here: https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html. I personally recommend miniconda. 

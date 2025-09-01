@@ -3,7 +3,7 @@ This is the code I used for my Bachelor's Project on Bayesian Delegation with As
 
 ## Installation
 These installation steps should be the same regardless of the operating system being used. 
-1. This repository is versioned using Conda. Install a Conda distributions of your choice by following the instructions found here: https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html. I personally recommend miniconda. 
+1. This repository is versioned using Conda. Install a Conda distributions of your choice by following the instructions found [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html). I personally recommend miniconda. 
 2. Navigate to the directory of this repository (the same folder this README file is in).
 3. Use the following command to install the environment: `conda env create -f overcooking-gym_env.yml -n overcooking-gym`
 
